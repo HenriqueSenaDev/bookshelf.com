@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .flex-row-wrap {
+    flex-flow: row wrap;
+  }
+}
